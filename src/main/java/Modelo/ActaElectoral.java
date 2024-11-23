@@ -122,5 +122,9 @@ public class ActaElectoral {
     public String toString() {
         return "ActaElectoral{" + "titulo=" + titulo + ", nMesa=" + nMesa + ", fecha=" + fecha + ", votantesRegistradosAc=" + votantesRegistradosAc + ", votoBlanco=" + votoBlanco + ", votoNulo=" + votoNulo + ", votoTotal=" + votoTotal + ", obs=" + obs + ", sello=" + sello + ", colaCandidatos=" + colaCandidatos + '}';
     }
+    
+    
+    public void prueba_comit(){
+    }
 
 }
