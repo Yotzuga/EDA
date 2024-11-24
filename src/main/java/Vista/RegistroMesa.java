@@ -82,7 +82,7 @@ public class RegistroMesa extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel1.setText("N° Mesa:");
 
-        txtNumeroMesa.setFont(new java.awt.Font("Sans Serif Collection", 0, 14)); // NOI18N
+        txtNumeroMesa.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtNumeroMesa.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
         txtNumeroMesa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,7 +127,7 @@ public class RegistroMesa extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel6.setText("Buscar N° Mesa:");
 
-        txtBusca.setFont(new java.awt.Font("Sans Serif Collection", 0, 14)); // NOI18N
+        txtBusca.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtBusca.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
         txtBusca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

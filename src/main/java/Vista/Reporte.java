@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author ANTHONY YANCE [ULTIMA ENTREGA]
+ * @author YANCE VALENZUELA Anthony 20224203[ultima Entrega] &&David Eduardo Vilela Rivera 20222786 [ULTIMA ENTREGA]
  */
 public class Reporte extends javax.swing.JFrame {
 
@@ -85,7 +85,7 @@ public class Reporte extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel5.setBackground(new java.awt.Color(246, 244, 241));
+        jPanel5.setBackground(new java.awt.Color(204, 204, 255));
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -358,7 +358,7 @@ public class Reporte extends javax.swing.JFrame {
         RegistroEleciones registroElecciones = new RegistroEleciones();
         registroElecciones.setVisible(true);
     }//GEN-LAST:event_ventanaElecionesActionPerformed
-     //David Eduardo Vilela Rivera 20222786 "btnActualizarActionPerformed"[ULTIMA ENTREGA]
+     // YANCE VALENZUELA Anthony 20224203-btnActualizarActionPerformed-[ultima Entrega] 
     private void btnActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarActionPerformed
 
         Elecciones elecciones = RegistroEleciones.getEleccionesGenerales();

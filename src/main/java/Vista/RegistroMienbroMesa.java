@@ -74,6 +74,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel1.setText("Nombre:");
 
+        txtNombre.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNombreActionPerformed(evt);
@@ -83,6 +84,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel2.setText("Apellido:");
 
+        txtApellido.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtApellido.setToolTipText("");
         txtApellido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +95,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel3.setText("DNI:");
 
+        txtDNI.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtDNI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtDNIActionPerformed(evt);
@@ -123,7 +126,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
         });
 
         btnModificar.setBackground(new java.awt.Color(153, 204, 255));
-        btnModificar.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
+        btnModificar.setFont(btnModificar.getFont().deriveFont(btnModificar.getFont().getStyle() | java.awt.Font.BOLD, btnModificar.getFont().getSize()+2));
         btnModificar.setText("Modificar");
         btnModificar.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 153), null));
         btnModificar.addActionListener(new java.awt.event.ActionListener() {
@@ -146,6 +149,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel6.setText("Buscar DNI:");
 
+        txtBuscar.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         txtBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtBuscarActionPerformed(evt);
@@ -154,6 +158,8 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Sans Serif Collection", 1, 14)); // NOI18N
         jLabel7.setText("Clave Acceso:");
+
+        txtClave.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
 
         btnBuscar.setFont(new java.awt.Font("Sans Serif Collection", 1, 12)); // NOI18N
         btnBuscar.setText("Buscar");
@@ -248,7 +254,7 @@ public class RegistroMienbroMesa extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistro)
                     .addComponent(btnEliminar)
-                    .addComponent(btnModificar))
+                    .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(34, Short.MAX_VALUE))
         );
 
